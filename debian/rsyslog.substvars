@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.38), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+misc:Depends=
+misc:Pre-Depends=

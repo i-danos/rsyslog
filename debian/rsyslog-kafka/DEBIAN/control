@@ -1,0 +1,14 @@
+Package: rsyslog-kafka
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 344
+Depends: libc6 (>= 2.38), librdkafka1 (>= 1.5.0), rsyslog (= 8.2102.0-2vyatta1)
+Section: admin
+Priority: optional
+Homepage: https://www.rsyslog.com/
+Description: Apache Kafka support for rsyslog
+ These plugins allow rsyslog to send and receive syslog messages via Apache
+ Kafka, a distributed and scalable message broker offering strong durability
+ and fault-tolerance guarantees.

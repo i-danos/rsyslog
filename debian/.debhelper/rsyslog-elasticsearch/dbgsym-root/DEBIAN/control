@@ -1,0 +1,12 @@
+Package: rsyslog-elasticsearch-dbgsym
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 81
+Depends: rsyslog-elasticsearch (= 8.2102.0-2vyatta1)
+Section: debug
+Priority: optional
+Description: debug symbols for rsyslog-elasticsearch
+Build-Ids: da0e543ab2468107063efa3ac950dfe496684fe2

@@ -1,0 +1,12 @@
+Package: rsyslog-pgsql-dbgsym
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 39
+Depends: rsyslog-pgsql (= 8.2102.0-2vyatta1)
+Section: debug
+Priority: optional
+Description: debug symbols for rsyslog-pgsql
+Build-Ids: 751613505b31e52acf2de0a433f66d9cd554ff15

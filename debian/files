@@ -1,0 +1,21 @@
+rsyslog-czmq-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-czmq_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-elasticsearch-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-elasticsearch_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-gnutls-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-gnutls_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-gssapi-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-gssapi_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-hiredis-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-hiredis_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-kafka-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-kafka_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-mysql-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-mysql_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-openssl-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-openssl_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog-pgsql-dbgsym_8.2102.0-2vyatta1_amd64.deb debug optional automatic=yes
+rsyslog-pgsql_8.2102.0-2vyatta1_amd64.deb admin optional
+rsyslog_8.2102.0-2vyatta1_amd64.buildinfo admin important
+rsyslog_8.2102.0-2vyatta1_amd64.deb admin important

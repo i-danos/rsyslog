@@ -1,0 +1,6 @@
+29cf50c62246864059e641f6d57c224c  usr/lib/x86_64-linux-gnu/rsyslog/imczmq.so
+c10b53ba3508969a481cf417008ae778  usr/lib/x86_64-linux-gnu/rsyslog/omczmq.so
+8be46062ee0167acf9e9f3a111c76e9d  usr/share/doc/rsyslog-czmq/README.Debian
+9f4f4200288fa32d6f26d4b258454e92  usr/share/doc/rsyslog-czmq/changelog.Debian.gz
+80edbe60c8a70aebc606005c21927be8  usr/share/doc/rsyslog-czmq/changelog.gz
+29993f97dccf2c42a8e6d3ec2e281fff  usr/share/doc/rsyslog-czmq/copyright

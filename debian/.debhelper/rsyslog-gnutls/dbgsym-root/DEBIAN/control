@@ -1,0 +1,12 @@
+Package: rsyslog-gnutls-dbgsym
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 79
+Depends: rsyslog-gnutls (= 8.2102.0-2vyatta1)
+Section: debug
+Priority: optional
+Description: debug symbols for rsyslog-gnutls
+Build-Ids: 1a11305aad170062df6157eeb4f18d828b551ae2

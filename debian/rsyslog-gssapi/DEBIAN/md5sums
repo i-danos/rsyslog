@@ -1,0 +1,6 @@
+f156c45e4c05382fc9af77af64c61124  usr/lib/x86_64-linux-gnu/rsyslog/imgssapi.so
+3a0d3543a281ba842ba2cf74f749eabb  usr/lib/x86_64-linux-gnu/rsyslog/lmgssutil.so
+23335bcc8cf62e185e1f88c253e61b8c  usr/lib/x86_64-linux-gnu/rsyslog/omgssapi.so
+01b93fd1cde7d624dadc1e78bced351f  usr/share/doc/rsyslog-gssapi/changelog.Debian.gz
+80edbe60c8a70aebc606005c21927be8  usr/share/doc/rsyslog-gssapi/changelog.gz
+29993f97dccf2c42a8e6d3ec2e281fff  usr/share/doc/rsyslog-gssapi/copyright

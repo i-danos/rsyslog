@@ -1,0 +1,15 @@
+Package: rsyslog-gssapi
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 317
+Depends: libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.17), rsyslog (= 8.2102.0-2vyatta1)
+Suggests: krb5-user
+Section: admin
+Priority: optional
+Homepage: https://www.rsyslog.com/
+Description: GSSAPI authentication and encryption support for rsyslog
+ These plugins allow rsyslog to write and/or receive GSSAPI authenticated and
+ encrypted syslog messages. GSSAPI is commonly used for Kerberos
+ authentication.

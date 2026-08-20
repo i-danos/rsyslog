@@ -1,0 +1,3 @@
+debian/tmp/usr/lib/x86_64-linux-gnu/rsyslog/imgssapi.so
+debian/tmp/usr/lib/x86_64-linux-gnu/rsyslog/lmgssutil.so
+debian/tmp/usr/lib/x86_64-linux-gnu/rsyslog/omgssapi.so

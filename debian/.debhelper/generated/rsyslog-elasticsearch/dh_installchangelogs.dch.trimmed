@@ -1,0 +1,224 @@
+rsyslog (8.2102.0-2vyatta1) unstable; urgency=medium
+
+  [ Mike Manning ]
+  * Update URLs to point to danos on github
+
+ -- Mike Manning <mmanning@vyatta.att-mail.com>  Fri, 21 May 2021 16:03:35 +0100
+
+rsyslog (8.2102.0-2) unstable; urgency=medium
+
+  * testbench: changed tlscommands for librelp tls tests.
+    Pull fix from https://github.com/rsyslog/rsyslog/pull/4535 to make sure
+    librelp tlscommand tests run well with all librelp and OpenSSL versions.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 17 Feb 2021 19:04:30 +0100
+
+rsyslog (8.2102.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2102.0
+  * Bump Standards-Version to 4.5.1
+  * Update Homepage URL to use https://
+  * Set upstream metadata fields: Bug-Submit, Bug-Database, Repository,
+    Repository-Browse
+  * Remove some left-over news bits
+  * Merge logrotate rules.
+    We only want a single postrotate to avoid having a SIGHUP getting lost
+    due to race conditions, leading to files not being rotated properly.
+    (Closes: #720096)
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 16 Feb 2021 20:23:15 +0100
+
+rsyslog (8.2012.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2012.0
+  * Rebase patches
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 08 Dec 2020 18:43:01 +0100
+
+rsyslog (8.2010.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2010.0
+  * Add missing pem test certificates.
+    Required to successfully run the test suite.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 20 Oct 2020 21:45:26 +0200
+
+rsyslog (8.2008.0-1) unstable; urgency=medium
+
+  [ Michael Biebl ]
+  * New upstream version 8.2008.0
+  * Rebase patches
+  * Add debian/rsyslog.service.
+    No longer provided by upstream directly.
+
+  [ Christian Ehrhardt ]
+  * d/p/Increase-timeouts-in-imfile-basic-2GB-file-and-imfile-tru.patch: bump
+    even further for riscv64
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 31 Aug 2020 18:04:06 +0200
+
+rsyslog (8.2006.0-2) unstable; urgency=medium
+
+  * Revert upstream changes which caused /dev/log from journald being
+    overwritten (Closes: #963715)
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 27 Jun 2020 13:29:13 +0200
+
+rsyslog (8.2006.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2006.0
+  * Bump debhelper-compat to 13
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 24 Jun 2020 12:54:55 +0200
+
+rsyslog (8.2004.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2004.0
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 28 Apr 2020 18:28:36 +0200
+
+rsyslog (8.2002.0-2vyatta1) unstable; urgency=medium
+
+  [ Mike Manning ]
+  * Rebase patches to 8.2002.0-2
+
+ -- Mike Manning <mmanning@vyatta.att-mail.com>  Fri, 24 Apr 2020 13:36:26 +0100
+
+rsyslog (8.2002.0-2) unstable; urgency=medium
+
+  * Increase timeouts in imfile-basic-2GB-file and imfile-truncate-2GB-file.
+    Those tests can take a long time, especially on slow architectures like
+    armhf, so bump the test timeouts considerably.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 28 Feb 2020 01:05:57 +0100
+
+rsyslog (8.2002.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2002.0
+  * Rebase patches
+  * Use ip instead of deprecated ifconfig when running the test suite.
+  * Add Build-Depends on curl.
+    This is required to run the test allowed-sender-tcp-hostname-fail.
+  * Enable extended test bench
+  * Bump Standards-Version to 4.5.0
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 26 Feb 2020 17:10:44 +0100
+
+rsyslog (8.2001.0-1) unstable; urgency=medium
+
+  * New upstream version 8.2001.0
+  * Set PYTHON=/usr/bin/python3 in debian/rules
+  * Cherry-pick upstream patches which fix a couple of imfile issues
+  * Add missing test files
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 22 Jan 2020 17:56:45 +0100
+
+rsyslog (8.1911.0-1) unstable; urgency=medium
+
+  * New upstream version 8.1911.0
+  * Follow DEP-14 naming
+  * Rebase patches
+  * Bump Standards-Version to 4.4.1
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 12 Nov 2019 23:43:26 +0100
+
+rsyslog (8.1910.0-2) unstable; urgency=medium
+
+  * Fix file handle leak in omfile (Closes: #935300)
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 24 Oct 2019 14:13:12 +0200
+
+rsyslog (8.1910.0-1) unstable; urgency=medium
+
+  * New upstream version 8.1910.0
+    - Support cross-platform build for mysql/mariadb
+      (Closes: #932068)
+    - Fix heap overflow in pmaixforwardedfrom module
+      (CVE-2019-17041, Closes: #942067)
+    - Fix heap overflow in pmcisconames module
+      (CVE-2019-17042, Closes: #942065)
+  * Use Python3 for running the test suite (Closes: #938417)
+  * Enable imfile tests
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 17 Oct 2019 01:42:10 +0200
+
+rsyslog (8.1908.0-1vyatta9) unstable; urgency=medium
+
+  [ Mike Manning ]
+  * testbench: modernize and make more robust
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Thu, 02 Apr 2020 17:03:54 +0100
+
+rsyslog (8.1908.0-1vyatta8) unstable; urgency=medium
+
+  [ Daniel Gollub ]
+  * ossl: finalize OCSP implementation
+
+  [ Vyatta Package Maintainers ]
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Sat, 07 Dec 2019 08:45:49 +0000
+
+rsyslog (8.1908.0-1vyatta7) unstable; urgency=medium
+
+  [ Charles (Chas) Williams ]
+  * Handle journal invalidate (Bugfix: VRVDR-49115)
+
+  [ Vyatta Package Maintainers ]
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Mon, 02 Dec 2019 13:12:35 +0000
+
+rsyslog (8.1908.0-1vyatta6) unstable; urgency=medium
+
+  [ Charles (Chas) Williams ]
+  * Normalize the rsyslog with CLI capabilities (Bugfix: VRVDR-49137)
+
+  [ Vyatta Package Maintainers ]
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Wed, 20 Nov 2019 16:40:48 +0000
+
+rsyslog (8.1908.0-1vyatta5) unstable; urgency=medium
+
+  [ Nicholas Brown ]
+  * Drop dependency on librelp as functionality is never used.
+
+  [ Vyatta Package Maintainers ]
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Wed, 20 Nov 2019 15:46:39 +0000
+
+rsyslog (8.1908.0-1vyatta4) unstable; urgency=medium
+
+  * DANOS Import master
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Thu, 31 Oct 2019 16:46:04 +0000
+
+rsyslog (8.1908.0-1) unstable; urgency=medium
+
+  * New upstream version 8.1908.0
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 20 Aug 2019 15:40:03 +0200
+
+rsyslog (8.1907.0-2) unstable; urgency=medium
+
+  * Enable OpenSSL network stream driver.
+    Split the driver into a separate package named rsyslog-openssl and
+    update the Suggests accordingly to make it the preferred TLS driver.
+    (Closes: #930816)
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 09 Jul 2019 23:42:07 +0200
+
+rsyslog (8.1907.0-1) unstable; urgency=medium
+
+  * New upstream version 8.1907.0
+  * Rebase patches
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 09 Jul 2019 22:11:42 +0200
+
+rsyslog (8.1905.0-4) unstable; urgency=medium
+
+  * Stop installing /etc/default/rsyslog and remove it on upgrades
+  * Upload to unstable
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 08 Jul 2019 14:38:18 +0200
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog rsyslog-elasticsearch`.

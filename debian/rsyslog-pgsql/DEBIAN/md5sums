@@ -1,0 +1,6 @@
+f1bcb9873ed7d5de93f5c0f76de1c1e4  usr/lib/x86_64-linux-gnu/rsyslog/ompgsql.so
+e08678b096404b5269964df284c1f4e3  usr/share/dbconfig-common/data/rsyslog-pgsql/install/pgsql
+c1e9577a025b106b66006a1859e1ebfd  usr/share/doc/rsyslog-pgsql/changelog.Debian.gz
+80edbe60c8a70aebc606005c21927be8  usr/share/doc/rsyslog-pgsql/changelog.gz
+29993f97dccf2c42a8e6d3ec2e281fff  usr/share/doc/rsyslog-pgsql/copyright
+ee758189dfe404c6068364233640c76e  usr/share/rsyslog-pgsql/rsyslog-pgsql.conf.template

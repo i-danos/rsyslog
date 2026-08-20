@@ -1,0 +1,14 @@
+Package: rsyslog-gnutls
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 311
+Depends: libc6 (>= 2.33), libgnutls30t64 (>= 3.8.4), rsyslog (= 8.2102.0-2vyatta1)
+Suggests: gnutls-bin
+Section: admin
+Priority: optional
+Homepage: https://www.rsyslog.com/
+Description: TLS protocol support for rsyslog (GnuTLS)
+ This netstream plugin allows rsyslog to send and receive encrypted syslog
+ messages via the syslog-transport-tls IETF standard protocol.

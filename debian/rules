@@ -8,7 +8,7 @@ export DEB_CPPFLAGS_MAINT_APPEND = -DPATH_PIDFILE=\"/run/rsyslogd.pid\"
 export PYTHON=/usr/bin/python3
 
 %:
-	dh $@ --with systemd
+	dh $@ --with systemd,autoreconf
 
 ifeq ($(DEB_HOST_ARCH_OS), linux)
 confflags += 	--enable-imptcp \

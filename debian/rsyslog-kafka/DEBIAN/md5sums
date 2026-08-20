@@ -1,0 +1,6 @@
+93dd076426700f8c0a1afb00ff17a1a0  usr/lib/x86_64-linux-gnu/rsyslog/imkafka.so
+8b41f76b8218286474b573c6ba113e22  usr/lib/x86_64-linux-gnu/rsyslog/omkafka.so
+74da56e97ceb921a384bd2ad9c23c814  usr/share/doc/rsyslog-kafka/README.Debian
+75ea7db4e54a145333c03adafb7fcfc6  usr/share/doc/rsyslog-kafka/changelog.Debian.gz
+80edbe60c8a70aebc606005c21927be8  usr/share/doc/rsyslog-kafka/changelog.gz
+29993f97dccf2c42a8e6d3ec2e281fff  usr/share/doc/rsyslog-kafka/copyright

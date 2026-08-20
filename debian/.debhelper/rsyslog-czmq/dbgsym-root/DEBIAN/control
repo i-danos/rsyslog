@@ -1,0 +1,12 @@
+Package: rsyslog-czmq-dbgsym
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 82
+Depends: rsyslog-czmq (= 8.2102.0-2vyatta1)
+Section: debug
+Priority: optional
+Description: debug symbols for rsyslog-czmq
+Build-Ids: 26931e9e6576cf9709cdbee468349b2377e86409 a55367ebff7216ba276302daf0919698cf70122c

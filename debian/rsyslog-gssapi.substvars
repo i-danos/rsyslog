@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.15), libgssapi-krb5-2 (>= 1.17)
+misc:Depends=
+misc:Pre-Depends=

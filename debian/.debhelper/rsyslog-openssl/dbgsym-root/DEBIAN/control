@@ -1,0 +1,12 @@
+Package: rsyslog-openssl-dbgsym
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 86
+Depends: rsyslog-openssl (= 8.2102.0-2vyatta1)
+Section: debug
+Priority: optional
+Description: debug symbols for rsyslog-openssl
+Build-Ids: 6f94ac1901f819f4e5a01f465fc9b48fce9810f8

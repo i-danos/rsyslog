@@ -1,0 +1,6 @@
+64c752d076dfe8d746a70e6ccf0d1ac2  usr/lib/x86_64-linux-gnu/rsyslog/ommysql.so
+6e8d56db471f7a164ce9624615efabb8  usr/share/dbconfig-common/data/rsyslog-mysql/install/mysql
+5d191745fb46ab2cc967b76047894b1f  usr/share/doc/rsyslog-mysql/changelog.Debian.gz
+80edbe60c8a70aebc606005c21927be8  usr/share/doc/rsyslog-mysql/changelog.gz
+29993f97dccf2c42a8e6d3ec2e281fff  usr/share/doc/rsyslog-mysql/copyright
+c8f4482dc9063502ffc4f72c42b8a671  usr/share/rsyslog-mysql/rsyslog-mysql.conf.template

@@ -1,0 +1,12 @@
+Package: rsyslog-gssapi-dbgsym
+Source: rsyslog
+Version: 8.2102.0-2vyatta1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Installed-Size: 113
+Depends: rsyslog-gssapi (= 8.2102.0-2vyatta1)
+Section: debug
+Priority: optional
+Description: debug symbols for rsyslog-gssapi
+Build-Ids: 2f873fd84e9e4fc318a47541950b39148f76e96f dfd07d2fb2f25da1dacc74803eb5e2897d3c62d9 f3a10ff113f553053a843457d49613be4bb86586
